@@ -20,6 +20,7 @@ G = nx.DiGraph()
 node_order = []
 
 #crea i nodi e prende nota dell'ordine
+#nota da cancellare
 nodesRoot = nodesTree.getroot()
 for node in nodesRoot:
 	G.add_node(node[4].text)
